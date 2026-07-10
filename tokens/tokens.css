@@ -1,0 +1,29 @@
+/* Actuaria Consultores — tokens de marca (2026-07)
+   Espejo en CSS de tokens.json. Fuente canónica: tokens.json. */
+:root {
+  /* ── Marca ── */
+  --ac-navy:    #151F47; /* institucional · Pantone 2766 C */
+  --ac-azul:    #3061AA; /* secundario   · Pantone 7455 C */
+  --ac-naranja: #DF5E2D; /* acento       · Pantone 7579 C */
+
+  /* ── Neutros ── */
+  --ac-surface:      #E8ECF4; /* superficie base */
+  --ac-light:        #D9DEEB; /* neutro claro */
+  --ac-white:        #FFFFFF;
+  --ac-naranja-soft: #FFBBA1; /* texto naranja sobre navy (AA) */
+
+  /* ── UI semántico (producto/ActuaFast) ── */
+  --ac-success: #00C781; --ac-success-soft: #66DDB3; --ac-success-text: #00B374;
+  --ac-warning: #FFBB38; --ac-warning-soft: #FFD688; --ac-warning-text: #E6A832;
+  --ac-danger:  #FF4040; --ac-danger-soft:  #FF8C8C; --ac-danger-text:  #CC3333;
+  --ac-info:    #3C76F1; --ac-info-soft:    #ECF1FE; --ac-info-text:    #366AD9;
+
+  /* ── Tipografía ── */
+  --ac-font-system:   'Nunito', sans-serif;      /* UI, cuerpo, documentos */
+  --ac-font-wordmark: 'Jost', 'Lemon Milk', sans-serif; /* solo logo */
+
+  /* ── Forma ── */
+  --ac-radius-sm: 5.333px;
+  --ac-radius-md: 16px;
+  --ac-radius-lg: 48px;
+}

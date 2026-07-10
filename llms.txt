@@ -1,0 +1,38 @@
+# Actuaria Consultores — Brandbook (índice para LLMs)
+
+> Identidad de marca de Actuaria Consultores. Contenido normativo en Markdown + tokens JSON/CSS.
+> Consume el Markdown como fuente de texto; usa tokens.json como fuente canónica de valores.
+
+## Esencia
+- Claim: «Trazamos el camino juntos.»
+- Arquetipo: El Tutor = El Sabio + El Cuidador (tono mentor: claro, riguroso, cercano).
+- Valores: CREE (cultura) + ACTÚA (acción). [Definición de cada letra: pendiente v2.]
+- Misión: soluciones de base matemática y tecnológica para mitigar riesgos y maximizar beneficios.
+- Metáfora rectora: cartas de navegación / «mar de datos».
+- Símbolo: imagotipo del velero.
+
+## Colores núcleo
+- Navy #151F47 (Pantone 2766 C) — institucional
+- Azul #3061AA (Pantone 7455 C) — secundario
+- Naranja #DF5E2D (Pantone 7579 C) — acento
+- Superficie neutra #E8ECF4 / #D9DEEB
+- Regla: naranja sobre navy usa variante clara #FFBBA1 (contraste AA).
+
+## Tipografía
+- Wordmark: Lemon Milk (fallback web: Jost 600).
+- Sistema y cuerpo: Nunito (Google Fonts).
+
+## Documentos
+- /brand/01-identidad.md: estrategia, arquetipo, buyer persona, arquitectura de marca.
+- /brand/02-logo.md: imagotipo velero, versiones, área de seguridad, usos incorrectos.
+- /brand/03-color.md: paleta completa (hex/Pantone/CMYK/RGB), neutros, semánticos UI, contraste.
+- /brand/04-tipografia.md: familias, jerarquía, uso.
+- /brand/05-texturas.md: 8 texturas del sistema (cartas de navegación / mar de datos).
+- /brand/06-aplicaciones.md: mockups y piezas.
+- /brand/07-gobernanza.md: reglas de uso, confidencialidad, versionado.
+- /tokens/tokens.json: tokens de diseño (fuente canónica).
+- /tokens/tokens.css: mismos tokens como CSS custom properties.
+- /pdf/Brandbook-Actuaria.pdf: brandbook completo A3, 40 páginas (referencia visual).
+
+## Regla para IAs
+Si un color, fuente o valor no aparece en tokens.json o en /brand, NO es de marca: no lo inventes.
