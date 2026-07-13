@@ -1,28 +1,27 @@
 # 4. Tipografía
 
-## Familias
+Sistema oficial (brandbook pág. 29): **tres familias con roles definidos.**
 
-| Uso | Familia | Notas |
-|-----|---------|-------|
-| **Wordmark / logo** | **Lemon Milk** | Geométrica, mayúsculas. No está en Google Fonts. Fallback web: **Jost** 600. Solo para el logotipo, no para texto corrido. |
-| **Sistema y cuerpo** | **Nunito** | Fuente principal de todos los prototipos, UI y entregables digitales. Google Fonts. Pesos 400 / 600 / 700 / 800 / 900. |
+| Rol | Familia | Pesos | Uso |
+|-----|---------|-------|-----|
+| **Títulos · display · números** | **Lemon Milk** | Display (mayúsculas) | Geométrica y sólida. Titulares, displays y números. Es también el wordmark del imagotipo. **No es libre.** |
+| **Subtítulos · kickers · etiquetas** | **Nunito** | SemiBold · Bold · ExtraBold | Redondeada y cercana. Libre (Google Fonts). |
+| **Contenido · párrafos** | **Prompt** | Light · Regular · Medium | Limpia y legible. Libre (Google Fonts). |
 
-> Regla de workspace: **usar Nunito como `font-family` principal** en todo prototipo, UI y
-> entregable HTML de Actuaria.
+## Justificación
+Lemon Milk ancla los titulares a la identidad del imagotipo, con su carácter geométrico en mayúsculas
+que proyecta solidez y rigor. Nunito, redondeada y cercana, ordena subtítulos y etiquetas aportando
+calidez. Prompt, neutra y legible, sostiene el contenido extenso. Juntas equilibran los dos lados del
+**Mentor**: el rigor del display y la cercanía del texto, en coherencia con el logo.
 
-## Jerarquía sugerida (web/UI)
-| Estilo | Peso | Uso |
-|--------|------|-----|
-| Título grande (H1) | Nunito 900 | Encabezados de página, cifras protagonistas. |
-| Subtítulo (H2–H3) | Nunito 800 | Títulos de sección / card. |
-| Cuerpo | Nunito 600–700 | Texto general, valores de campo. |
-| Etiqueta / label | Nunito 800, UPPERCASE, tracking +0.5px | Etiquetas de campos, secciones. |
-| Small / meta | Nunito 600 | Metadatos, fechas, notas. |
+## Reglas de uso
+- **Títulos** siempre en Lemon Milk, en **mayúsculas**. Si no tienes Lemon Milk licenciada, usa
+  **Nunito Black** (o Jost 700) como *fallback* — así está resuelto hoy en el propio archivo Figma.
+- **Subtítulos, kickers y etiquetas** en Nunito (SemiBold–ExtraBold); labels en mayúsculas con tracking.
+- **Cuerpo** siempre en Prompt (Regular). No usar Nunito para párrafos largos ni Prompt para títulos.
+- No mezclar **Nunito Sans** (familia distinta) ni sustituir por sans genéricas.
 
-## Recomendaciones
-- Alto contraste de peso (400 vs 800/900) para jerarquía clara.
-- Mayúsculas con tracking amplio en labels; nunca en párrafos largos.
-- No sustituir Nunito por otra sans genérica en piezas de marca.
-
-> Nota: para **video / motion** el proyecto usa BricolageGrotesque + WorkSans; para marca digital y
-> documentos rige lo anterior (Nunito + Lemon Milk/Jost).
+## Disponibilidad
+- Nunito y Prompt: gratuitas en Google Fonts.
+- Lemon Milk: no libre; para el **logo no hace falta** (viene vectorizado en `/assets`).
+- Detalle técnico y `@import`: ver [`../assets/fonts.md`](../assets/fonts.md).

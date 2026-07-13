@@ -34,7 +34,7 @@ Fuente: **Nunito** — ver [`assets/fonts.md`](./assets/fonts.md).
 ### Valores literales (pégalos en el prompt, no dependas de la URL)
 - Navy `#151F47` · Azul `#3061AA` · Naranja `#DF5E2D` · Superficie `#E8ECF4` · Neutro `#D9DEEB`
 - Naranja sobre navy → usar `#FFBBA1` (contraste AA)
-- Tipografía: **Nunito** (400–900). Proporción de color **60/30/10** (navy/azul/naranja).
+- Tipografía (3 roles): **títulos = Lemon Milk** (no libre → fallback **Nunito Black**), **subtítulos/etiquetas = Nunito**, **cuerpo = Prompt**. Proporción de color **60/30/10** (navy/azul/naranja).
 - Símbolo: **velero** de 3 partes (vela mayor navy, foque naranja, casco azul) + wordmark «ACTUARIA».
 
 ---
@@ -52,9 +52,11 @@ Fuentes obligatorias (léelas y respétalas):
 - Logo (insértalo como <img> o SVG embebido, NO lo redibujes):
   https://raw.githubusercontent.com/renatopuente-ux/actuaria-brandbook-ai/main/assets/actuaria-logo-color.svg
   (sobre fondo oscuro usa actuaria-logo-negative.svg)
-- Fuente Nunito vía @import de Google Fonts.
+- Fuentes vía @import de Google Fonts: Nunito y Prompt.
 
-Reglas: usa SOLO los colores de tokens.json; tipografía Nunito; proporción 60/30/10; naranja sobre
+Reglas: usa SOLO los colores de tokens.json; tipografía por rol → títulos en Lemon Milk (si no está
+disponible, fallback Nunito Black en mayúsculas), subtítulos/etiquetas en Nunito, cuerpo en Prompt;
+proporción 60/30/10; naranja sobre
 navy = #FFBBA1; respeta el área de seguridad del logo (½ de la altura de la "A"). No inventes
 colores, fuentes ni un logo alternativo.
 
@@ -69,7 +71,7 @@ Al final, lista cómo verificaste que cumple la identidad.
 ```
 Genera SOLO el fondo/composición de [PIEZA] con estética Actuaria: minimalista, corporativa,
 neumorfismo suave sobre superficie #E8ECF4. Paleta EXACTA (no uses otros colores):
-navy #151F47, azul #3061AA, naranja #DF5E2D (acento, ~10%). Tipografía Nunito.
+navy #151F47, azul #3061AA, naranja #DF5E2D (acento, ~10%).
 NO dibujes ningún logo ni el texto "ACTUARIA": deja un espacio limpio arriba-izquierda para
 colocar el logo después. No inventes marcas, taglines ni íconos de barco.
 ```
@@ -83,7 +85,7 @@ Luego **coloca el logo tú** (el PNG adjunto) sobre el espacio reservado, en Fig
 ## Checklist de homologación (antes de dar por buena una pieza)
 - [ ] ¿El logo es el archivo oficial de `assets/` (velero tricolor + ACTUARIA), no uno inventado?
 - [ ] ¿Colores solo de la paleta (`#151F47`, `#3061AA`, `#DF5E2D`, neutros)? ¿60/30/10?
-- [ ] ¿Tipografía Nunito (no una genérica)?
+- [ ] ¿Tipografía por rol? Títulos en Lemon Milk (o fallback Nunito Black), subtítulos/etiquetas en Nunito, cuerpo en Prompt. Nada de sans genéricas ni Nunito Sans.
 - [ ] ¿Sin taglines/íconos inventados (p. ej. «Transformamos datos en decisiones» NO es de marca)?
 - [ ] ¿Naranja sobre navy usa `#FFBBA1`?
 - [ ] ¿Área de seguridad del logo respetada?

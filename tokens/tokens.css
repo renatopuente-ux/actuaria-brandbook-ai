@@ -18,9 +18,10 @@
   --ac-danger:  #FF4040; --ac-danger-soft:  #FF8C8C; --ac-danger-text:  #CC3333;
   --ac-info:    #3C76F1; --ac-info-soft:    #ECF1FE; --ac-info-text:    #366AD9;
 
-  /* ── Tipografía ── */
-  --ac-font-system:   'Nunito', sans-serif;      /* UI, cuerpo, documentos */
-  --ac-font-wordmark: 'Jost', 'Lemon Milk', sans-serif; /* solo logo */
+  /* ── Tipografía (3 familias por rol) ── */
+  --ac-font-title:    'Lemon Milk', 'Nunito', sans-serif; /* títulos/display/números · fallback Nunito Black (Lemon Milk no libre) */
+  --ac-font-subtitle: 'Nunito', sans-serif;               /* subtítulos, kickers, etiquetas */
+  --ac-font-body:     'Prompt', sans-serif;                /* párrafos y texto corrido */
 
   /* ── Forma ── */
   --ac-radius-sm: 5.333px;

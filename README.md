@@ -22,7 +22,7 @@
 - **Claim:** «Trazamos el camino juntos.»
 - **Arquetipo:** El Tutor (El Sabio + El Cuidador) → tono de *mentor*: claro, riguroso, cercano.
 - **Colores núcleo:** Navy `#151F47`, Azul `#3061AA`, Naranja `#DF5E2D` sobre neutro `#E8ECF4`.
-- **Tipografía:** wordmark en *Lemon Milk*; sistema y cuerpo en **Nunito**.
+- **Tipografía (3 roles):** títulos/display en **Lemon Milk** (no libre → *fallback* **Nunito Black**), subtítulos/etiquetas en **Nunito**, cuerpo en **Prompt**.
 - **Símbolo:** imagotipo del **velero**; el símbolo nunca va a la derecha del wordmark.
 - **Metáfora rectora:** *cartas de navegación / mar de datos* — guía todo el sistema visual.
 
