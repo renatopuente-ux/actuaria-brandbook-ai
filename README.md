@@ -28,10 +28,17 @@
 
 ---
 
+## ⚡ ¿Vas a generar una pieza con IA? Empieza aquí
+Lee **[`AI-KIT.md`](./AI-KIT.md)** — explica qué IA usar (las de imagen **no** reproducen el logo),
+los prompts listos, y los **activos oficiales** de [`/assets`](./assets) (logo SVG/PNG + Nunito).
+El logo y las fuentes **no se generan, se insertan** desde `/assets`.
+
 ## Índice
 
 | Tema | Archivo |
 |------|---------|
+| ⭐ Kit para generar con IA | [`AI-KIT.md`](./AI-KIT.md) |
+| Activos (logo, fuentes) | [`assets/`](./assets) |
 | 1. Identidad y estrategia | [`brand/01-identidad.md`](./brand/01-identidad.md) |
 | 2. Logo e imagotipo | [`brand/02-logo.md`](./brand/02-logo.md) |
 | 3. Color | [`brand/03-color.md`](./brand/03-color.md) |
